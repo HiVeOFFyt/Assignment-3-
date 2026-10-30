@@ -1,0 +1,7 @@
+graph,V,E,input,avg_time_us,cycle_found,order_size,edge_examinations
+Small,10,30,DAG,0.43,false,10,60
+Small,10,30,with cycles,0.16,true,0,30
+Medium,100,500,DAG,4.75,false,100,1000
+Medium,100,500,with cycles,0.95,true,0,500
+Large,1000,5000,DAG,531.82,false,1000,10000
+Large,1000,5000,with cycles,8.98,true,0,5054

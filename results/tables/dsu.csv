@@ -1,0 +1,13 @@
+graph,V,E,variant,avg_time_us,find_calls,union_calls,parent_steps
+Small,10,30,no optimization,0.88,28,14,18
+Small,10,30,path compression only,0.88,28,14,17
+Small,10,30,union by rank only,0.86,28,14,17
+Small,10,30,both,0.90,28,14,15
+Medium,100,500,no optimization,57.42,328,164,1977
+Medium,100,500,path compression only,34.56,328,164,416
+Medium,100,500,union by rank only,38.54,328,164,314
+Medium,100,500,both,28.35,328,164,248
+Large,1000,5000,no optimization,1729.89,6712,3356,561684
+Large,1000,5000,path compression only,684.57,6712,3356,12838
+Large,1000,5000,union by rank only,717.02,6712,3356,11492
+Large,1000,5000,both,881.76,6712,3356,6238

@@ -1,0 +1,7 @@
+graph,V,E,algorithm,avg_time_us,total_weight,comparisons,edge_examinations,dsu_finds,dsu_unions,heap_ops
+Small,10,30,Kruskal,1.02,129,107,14,28,14,0
+Small,10,30,Prim,1.64,129,203,60,0,0,60
+Medium,100,500,Kruskal,44.48,1170,3827,164,328,164,0
+Medium,100,500,Prim,67.92,1170,7697,1000,0,0,1000
+Large,1000,5000,Kruskal,649.55,13123,50369,3356,6712,3356,0
+Large,1000,5000,Prim,1070.50,13123,110958,10000,0,0,10000

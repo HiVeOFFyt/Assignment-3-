@@ -1,0 +1,4 @@
+graph,V,E,avg_time_us,reachable,edge_relaxations,successful_relaxations,heap_ops
+Small,10,30,0.93,10,60,17,36
+Medium,100,500,15.26,100,1000,199,400
+Large,1000,5000,470.75,1000,10000,1986,3974
